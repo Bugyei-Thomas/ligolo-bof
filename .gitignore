@@ -1,0 +1,18 @@
+# Binaries
+*.dll
+*.so
+*.h
+
+# Go build artifacts
+*.exe
+
+# Sliver client stuff
+*.sliver-client
+
+# Editor configs
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db

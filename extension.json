@@ -1,0 +1,29 @@
+{
+  "name": "ligolo-ng-bof",
+  "command_name": "ligolo",
+  "version": "v0.0.1",
+  "extension_author": "custom",
+  "original_author": "nicocha30",
+  "repo_url": "https://github.com/nicocha30/ligolo-ng",
+  "help": "Ligolo-ng agent tunnel - connect back to a ligolo-ng proxy from a compromised host",
+  "long_help": "Usage:\n  'connect <host:port>'              Connect via TCP+TLS to ligolo-ng proxy\n  'connect ws://<host:port>'         Connect via WebSocket to ligolo-ng proxy\n  'connect wss://<host:port>'        Connect via secure WebSocket to ligolo-ng proxy\n  'list'                             List active tunnel tasks\n  'stop <taskId>'                    Stop a running tunnel task\n\nConnect Options:\n  --ignore-cert                      Skip TLS certificate verification\n  --accept-fingerprint <hex>         Accept cert matching this SHA256 fingerprint\n  --proxy <url>                      Upstream SOCKS5 proxy (socks5://host:port)\n\nExamples:\n  ligolo connect 10.10.10.5:11601\n  ligolo connect wss://10.10.10.5:443 --ignore-cert\n  ligolo list\n  ligolo stop 0\n",
+  "entrypoint": "entrypoint",
+  "files": [
+    {
+      "os": "linux",
+      "arch": "amd64",
+      "path": "ligolo.x64.so"
+    },
+
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "path": "ligolo.x64.dll"
+    },
+    {
+      "os": "windows",
+      "arch": "386",
+      "path": "ligolo.x86.dll"
+    }
+  ]
+}
