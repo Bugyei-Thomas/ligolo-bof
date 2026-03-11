@@ -2,7 +2,7 @@
   "name": "ligolo-ng-bof",
   "command_name": "ligolo",
   "version": "v0.0.1",
-  "extension_author": "custom",
+  "extension_author": "Bugyei-Thomas",
   "original_author": "nicocha30",
   "repo_url": "https://github.com/nicocha30/ligolo-ng",
   "help": "Ligolo-ng agent tunnel - connect back to a ligolo-ng proxy from a compromised host",
