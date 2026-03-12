@@ -59,7 +59,7 @@ TLS certificate verification is **disabled by default** — the proxy uses a sel
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Bugyei-Thomas/ligolo-bof.git
+git clone https://github.com/s4wbvnny/ligolo-bof.git
 cd ligolo-bof
 ```
 
