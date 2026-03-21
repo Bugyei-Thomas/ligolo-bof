@@ -189,7 +189,7 @@ ligolo-bof/
 
 ## Disclaimer
 
-This tool is intended for **authorised penetration testing and red team engagements only**. Misuse of this software is illegal and unethical. The authors accept no liability for any damage caused by misuse of this tool.
+This tool is intended for **authorised penetration testing and red team engagements only**. Misuse of this software is illegal and unethical. The authors accept no liability for any damage caused by misuse of this tool. <br><br><br> PS: I just added bof to the name so that you can find it easily, techinically it isn't a bof but you get the idea.
 
 ---
 
