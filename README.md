@@ -24,7 +24,7 @@ All core tunnelling logic, protocol design, and agent/handler implementations ar
                   as Sliver extension)
 ```
 
-The BOF runs inside the Sliver implant's process. When invoked, it:
+The extension runs inside the Sliver implant's process. When invoked, it:
 1. Dials the ligolo-ng proxy over TCP+TLS (or WebSocket/TLS).
 2. Establishes a yamux-multiplexed session, matching the standard ligolo-ng agent protocol.
 3. Handles all tunnelling commands from the proxy (connect, ping, listener, etc.).
